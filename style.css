@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+
+body{
+    font-size: 62.5%;
+}
+
+
+.hero-container{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.hero-image{
+    width: 100%;
+    height: auto;
+}
+
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+}
+
+.nav-link {
+    float: right;
+    font-size: 40px;
+    font-family: Georgia, Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    font-size: 100%;
+}
+
+
+.name {
+    position: absolute;
+    top: 33%;
+    left: 15%;
+    color: white;
+    font-size: 60px;
+    font-family: Georgia, Arial, sans-serif;
+}
+
+
+.portfolio-section{
+    background-color: #081627;
+
+}
+
+.heading-container {
+    margin: 30px;
+}
+
+.main-heading{
+    font-size: 40px;
+    width: 200px;
+    text-align: center;
+    font-family: Georgia, Arial, sans-serif;
+    color: #ffffff;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    position: relative;
+}
+
+
+.portfolio-row{
+    width: 100%;
+    overflow: auto;
+}
+
+
+.portfolio-item{
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+    margin: 1.5%;
+}
+
+.portfolio-image {
+    width: 100%;
+}
+
+.portfolio-heading{
+    font-size: 30px;
+    font-family: Georgia, arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.portfolio-text{
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    padding: 5px;
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+.about-section {
+    background-color: #8A8471;
+    position: relative;
+}
+
+.about-container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+
+.profile-pic-container {
+    height: 215px;
+    width: 200px;
+    margin: 0 auto 20px;
+}
+
+.profile-image{
+    border: 1px solid #ddd;
+    height: 210px;
+    float: left;
+    margin: 0 15px;
+    padding: 5px;
+}
+
+
+.background-container{
+    float: left;
+    clear:both;
+    height: 200px;
+    width: 46%;
+    margin: 2%;
+    position: relative;
+}
+
+.logo-container{
+    height: 200px;
+    float: right;
+    width: 46%;
+    margin: 2%;
+}
+
+.bio-heading{
+    background: transparent;
+    font-size: 30px;
+    font-family: Georgia, arial, sans-serif;
+    color: #ffffff;
+}
+
+.bio-text{
+    background: transparent;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    color: #ffffff;
+    overflow: auto;
+}
+
+.logo{
+    width: 12%;
+    margin: 2%;
+}
+
+.contact-section{
+    background-color: #081627;
+    position: relative;
+    clear: both;
+}
+
+.footer-item{
+    float: left;
+    width: 32%;
+    height: 370px;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+    position: relative;
+}
+
+.flower-image{
+    width: 100%;
+}
+
+.footer-bottom{
+    position: absolute;
+    bottom: 10%;
+    left: 55%;
+}
+
+.block{
+    display: block;
+}
+
+
+
