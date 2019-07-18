@@ -1,28 +1,26 @@
-*{
+* {
     box-sizing: border-box;
     margin: auto;
     padding: 0;
 }
 
-body{
+body {
     font-size: 62.5%;
 }
 
-
-.hero-container{
+.hero-container {
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
 }
 
-.hero-image{
+.hero-image {
     width: 100%;
     height: auto;
 }
 
-
-nav{
+nav {
     width: 100%;
     position: absolute;
     top: 0;
@@ -42,10 +40,9 @@ a:link, a:visited {
     color: #ffffff;
 }
 
-a:hover{
+a:hover {
     font-size: 100%;
 }
-
 
 .name {
     position: absolute;
@@ -56,8 +53,7 @@ a:hover{
     font-family: Georgia, Arial, sans-serif;
 }
 
-
-.portfolio-section{
+.portfolio-section {
     background-color: #081627;
 
 }
@@ -66,7 +62,7 @@ a:hover{
     margin: 30px;
 }
 
-.main-heading{
+.main-heading {
     font-size: 40px;
     width: 200px;
     text-align: center;
@@ -74,21 +70,19 @@ a:hover{
     color: #ffffff;
 }
 
-.container{
+.container {
     width: 80%;
     margin: auto;
     overflow: auto;
     position: relative;
 }
 
-
-.portfolio-row{
+.portfolio-row {
     width: 100%;
     overflow: auto;
 }
 
-
-.portfolio-item{
+.portfolio-item {
     float: left;
     width: 30%;
     padding: 0 10px;
@@ -99,13 +93,13 @@ a:hover{
     width: 100%;
 }
 
-.portfolio-heading{
+.portfolio-heading {
     font-size: 30px;
     font-family: Georgia, arial, sans-serif;
     background-color: #ffffff;
 }
 
-.portfolio-text{
+.portfolio-text {
     font-size: 15px;
     font-family: arial, sans-serif;
     padding: 5px;
@@ -118,12 +112,11 @@ a:hover{
     position: relative;
 }
 
-.about-container{
+.about-container {
     width: 80%;
     margin: auto;
     position: relative;
 }
-
 
 .profile-pic-container {
     height: 215px;
@@ -131,7 +124,7 @@ a:hover{
     margin: 0 auto 20px;
 }
 
-.profile-image{
+.profile-image {
     border: 1px solid #ddd;
     height: 210px;
     float: left;
@@ -139,31 +132,30 @@ a:hover{
     padding: 5px;
 }
 
-
-.background-container{
+.background-container {
     float: left;
-    clear:both;
+    clear: both;
     height: 200px;
     width: 46%;
     margin: 2%;
     position: relative;
 }
 
-.logo-container{
+.logo-container {
     height: 200px;
     float: right;
     width: 46%;
     margin: 2%;
 }
 
-.bio-heading{
+.bio-heading {
     background: transparent;
     font-size: 30px;
     font-family: Georgia, arial, sans-serif;
     color: #ffffff;
 }
 
-.bio-text{
+.bio-text {
     background: transparent;
     font-size: 15px;
     font-family: arial, sans-serif;
@@ -171,18 +163,18 @@ a:hover{
     overflow: auto;
 }
 
-.logo{
+.logo {
     width: 12%;
     margin: 2%;
 }
 
-.contact-section{
+.contact-section {
     background-color: #081627;
     position: relative;
     clear: both;
 }
 
-.footer-item{
+.footer-item {
     float: left;
     width: 32%;
     height: 370px;
@@ -192,17 +184,17 @@ a:hover{
     position: relative;
 }
 
-.flower-image{
+.flower-image {
     width: 100%;
 }
 
-.footer-bottom{
+.footer-bottom {
     position: absolute;
     bottom: 10%;
     left: 55%;
 }
 
-.block{
+.block {
     display: block;
 }
 
