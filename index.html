@@ -7,115 +7,124 @@
     <title>Liz Sharp Portfolio</title>
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap">
 </head>
 <body>
-        <div class="hero-container">
-            <img class="hero-image" src="assets/butterflies.png" alt="butterfly">
-            <div class="name">Liz Sharp</div>
-        </div>
-        <nav>
-            <div class="nav-item-container">
-                <div class="nav-link">
-                    <a href="#about">About</a>
-                </div>
-                <div class="nav-link">
-                    <a href="#portfolio">Portfolio</a>
-                </div>
-                <div class="nav-link">
-                    <a href="#contact">Contact</a>
-                </div>
+<div class="hero-container">
+    <img class="hero-image" src="assets/butterflies.png" alt="butterfly">
+    <div class="name">Liz Sharp</div>
+    <nav>
+        <div class="nav-item-container">
+            <div class="nav-link">
+                <a href="#about">About</a>
             </div>
-        </nav>
+            <div class="nav-link">
+                <a href="#portfolio">Portfolio</a>
+            </div>
+            <div class="nav-link">
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+</div>
+
 <!-- portfolio section -->
-        <div class="portfolio-section">
-            <div class="container">
-                <div class="heading-container">
-                    <h2 id="portfolio" class="main-heading">Portfolio</h2>
-                </div>
-                <div class="portfolio-row">
-                    <div class="portfolio-item">
-                        <a href="#">
-                        <img class="portfolio-image" src="assets/spiral.png" alt="portfolio img">
-                        </a>
-                            <h3 class="portfolio-heading">Portfolio 1</h3>
-                        <p class="portfolio-text">Here is some text about the portfolio project. Here is some text about the portfolio project. Here is some text about the portfolio project.</p>
-                    </div>
-                    <div class="portfolio-item">
-                        <a href="#">
-                            <img class="portfolio-image" src="assets/spiral.png" alt="portfolio img">
-                        </a>
-                        <h3 class="portfolio-heading">Portfolio 1</h3>
-                        <p class="portfolio-text">Here is some text about the portfolio project. Here is some text about the portfolio project. Here is some text about the portfolio project.</p>
-                    </div>
-                    <div class="portfolio-item">
-                        <a href="#">
-                            <img class="portfolio-image" src="assets/spiral.png" alt="portfolio img">
-                        </a>
-                        <h3 class="portfolio-heading">Portfolio 1</h3>
-                        <p class="portfolio-text">Here is some text about the portfolio project. Here is some text about the portfolio project. Here is some text about the portfolio project.</p>
-                    </div>
-                    <div class="portfolio-item">
-                        <a href="#">
-                            <img class="portfolio-image" src="assets/spiral.png" alt="portfolio img">
-                        </a>
-                        <h3 class="portfolio-heading">Portfolio 1</h3>
-                        <p class="portfolio-text">Here is some text about the portfolio project. Here is some text about the portfolio project. Here is some text about the portfolio project.</p>
-                    </div>
-                    <div class="portfolio-item">
-                        <a href="#">
-                            <img class="portfolio-image" src="assets/spiral.png" alt="portfolio img">
-                        </a>
-                        <h3 class="portfolio-heading">Portfolio 1</h3>
-                        <p class="portfolio-text">Here is some text about the portfolio project. Here is some text about the portfolio project. Here is some text about the portfolio project.</p>
-                    </div>
-                    <div class="portfolio-item">
-                        <a href="#">
-                            <img class="portfolio-image" src="assets/spiral.png" alt="portfolio img">
-                        </a>
-                        <h3 class="portfolio-heading">Portfolio 1</h3>
-                        <p class="portfolio-text">Here is some text about the portfolio project. Here is some text about the portfolio project. Here is some text about the portfolio project.</p>
-                    </div>
-                </div>
-            </div>
+<div id="portfolio" class="portfolio-container">
+    <div class="portfolio">
+        <div class="portfolio-item">
+            <a href="https://dev.maydenacademy.co.uk/projects/2019Jul/2019-jul-maze/" target="_blank">
+                <img class="portfolio-image" src="assets/maze_game.png" alt="portfolio img">
+                <h3 class="heading">Maze Game - Who's a Good Puppy?!</h3></a>
+            <p class="text">We created and built a maze game from the ground up. Selecting the theme, wireframing the
+                design, creating svg graphics and using jquery for the dom manipulation and event handling to speed up
+                the project build.</p>
         </div>
+        <div class="portfolio-item">
+            <a href="https://dev.maydenacademy.co.uk/projects/2019Jul/2019-top-cat/" target="_blank">
+                <img class="portfolio-image" src="assets/top_cats.png" alt="portfolio img">
+                <h3 class="heading">Cat Selector App - Top Cat</h3></a>
+            <p class="text">Using elements of a public service API (The Cat Api) and PHP we created an application which
+                allows the user to select a cat breed and display all relevant images for that breed.</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="https://github.com/Mayden-Academy/aptitude-test" target="_blank">
+                <img class="portfolio-image" src="assets/spiral.png" alt="portfolio img">
+                <h3 class="heading">Aptitude Testing Application</h3></a>
+            <p class="text">Using a pre-built RESTful API, we built a Es6 application to test people's aptitude for
+                Mayden Academy. We compiled to Es5 using Babel through Gulp and made use of Fetch to interact with the
+                back-end API.</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="https://github.com/lizsharp/Collector">
+                <img class="portfolio-image" src="assets/spiral.png" alt="portfolio img">
+                <h3 class="heading">MySQL Colectors App - The Gardeners Collection</h3></a>
+            <p class="text">Using a combination of front-end html, css and back-end PHP, along with the design and build
+                of a mysql database, I created an application that displays a garden collection of plants.</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="#">
+                <img class="portfolio-image" src="assets/spiral.png" alt="portfolio img">
+            </a>
+            <h3 class="heading">Portfolio 1</h3>
+            <p class="text">Here is some text about the portfolio project. Here is some text about the portfolio
+                project. Here is some text about the portfolio project.</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="#">
+                <img class="portfolio-image" src="assets/spiral.png" alt="portfolio img">
+            </a>
+            <h3 class="heading">Portfolio 1</h3>
+            <p class="text">Here is some text about the portfolio project. Here is some text about the portfolio
+                project. Here is some text about the portfolio project.</p>
+        </div>
+    </div>
+</div>
 <!-- about section -->
-        <div class="about-section">
-            <div class="container">
-                <div class="heading-container">
-                    <h2 id="about" class="main-heading">About</h2>
-                </div>
-                <div class="profile-pic-container">
-                    <img class="profile-image" src="assets/liz-profile-pic.jpg" alt="Liz Sharp">
-                </div>
-                <div class="background-container">
-                    <h3 class="bio-heading">Background</h3>
-                    <p class="bio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris pharetra et ultrices neque ornare aenean euismod elementum nisi. Viverra nibh cras pulvinar mattis nunc sed blandit libero. Pretium fusce id velit ut tortor pretium. Nulla facilisi morbi tempus iaculis urna id volutpat. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Fames ac turpis egestas sed tempus urna. Volutpat lacus laoreet non curabitur gravida arcu. Viverra orci sagittis eu volutpat odio facilisis mauris sit. Nibh tellus molestie nunc non blandit. Semper feugiat nibh sed pulvinar proin gravida hendrerit. Ipsum dolor sit amet consectetur adipiscing elit duis.</p>
-                </div>
-                <div class="logo-container">
-                    <h3 class="bio-heading">Technologies</h3>
-                    <p class="bio-text"> These are a few of the technologies and methodologies I'm currently using.</p>
-                    <img class="logo" src="assets/scrum.png" alt="scrum master">
-                    <img class="logo" src="assets/github.png" alt="github">
-                    <img class="logo" src="assets/phpstorm.png" alt="phpstorm">
-                    <img class="logo" src="assets/icons8-css3.png" alt="css">
-                    <img class="logo" src="assets/icons8-html.png" alt="html">
-                    <img class="logo" src="assets/js.png" alt="javascript">
-                </div>
-            </div>
+<div id="about" class="about-container">
+    <div class="about">
+        <div class="image-container">
+            <img class="profile-image" src="assets/liz-profile-pic.jpg" alt="Liz Sharp">
         </div>
+        <div class="background">
+            <h3 class="heading">Background</h3>
+            <p class="text">I am an enthusiastic and driven professional with a passion for personal development and
+                ongoing learning. I have spent the last decade working in marketing for a range of businesses, and
+                recently reskilled as a full stack software developer.</p>
+            <p class="text">Many of my roles and projects have been related to technology, specifically with B2B
+                software development companies and service providers. I have always enjoyed being involved in this space
+                and have loved getting an understanding of the domain as part of my core role and being actively
+                involved in technology projects.</p>
+            <p class="text">I recently graduated from <a href="https://mayden.academy/">Mayden Academy</a> a full stack,
+                intensive 16 week course, where I learnt the fundamentals of programming, became a certified scrum
+                master and worked in a team of 8 to produce a number of projects.</p>
+        </div>
+        <div class="technologies">
+            <h3 class="heading">Technologies</h3>
+            <p class="text"> These are a few of the technologies and methodologies I'm currently using.</p>
+            <img class="logo" src="assets/scrum_white.png" alt="scrum master">
+            <img class="logo" src="assets/github_white.png" alt="github">
+            <img class="logo" src="assets/phpstorm_white.png" alt="phpstorm">
+            <img class="logo" src="assets/icons8-css3_white.png" alt="css">
+            <img class="logo" src="assets/icons8-html_white.png" alt="html">
+            <img class="logo" src="assets/js_white.png" alt="javascript">
+        </div>
+    </div>
+</div>
+
 <!-- contact section -->
-        <footer class="contact-section">
-                <div id="contact" class="container">
-                    <div class="footer-item" id="flowers">
-                        <img class="flower-image" src="assets/flowers.jpg" alt="flowers">
-                    </div>
-                    <div class="footer-item">
-                        <div class="footer-bottom"><p>&copy; Copyright Liz Sharp</p></div>
-                    </div>
-                    <div class="footer-item">
-                        <p class="footer-bottom"> <span class="block">Contact:</span> <span class="block">email: ejgsharp@gmail.com</span> <span class="block">mobile: 07853 297 184</span></p>
-                    </div>
-                </div>
-        </footer>
+<div id="contact" class="contact-container">
+    <div class="contact">
+        <div class="image-container">
+            <img class="flower-image" src="assets/flowers_300.jpg" alt="flowers">
+        </div>
+        <div class="copyright"><p>&copy; Copyright Liz Sharp</p></div>
+        <div class="get-intouch">
+            <h4>Get in touch</h4>
+            <p>Mobile: 07853 297 184</p>
+            <p>Email: <a href="mailto:ejgsharp@gmail.com">ejgsharp@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/lizsharp" target="_blank">github.com/lizsharp</a></p>
+        </div>
+    </div>
+</div>
 </body>
 </html>

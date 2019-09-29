@@ -1,13 +1,20 @@
 * {
     box-sizing: border-box;
-    margin: auto;
-    padding: 0;
 }
 
 body {
     font-size: 62.5%;
+    margin: 0 auto;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    line-height: 1.3rem;
+    font-family: 'Nanum gothic', sans-serif;
+    color: #ffffff;
 }
 
+/*HERO SECTION*/
 .hero-container {
     position: relative;
     top: 0;
@@ -18,12 +25,13 @@ body {
 .hero-image {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 nav {
     width: 100%;
     position: absolute;
-    top: 0;
+    top: 20px;
     background-color: transparent;
 }
 
@@ -33,8 +41,7 @@ nav {
 
 .nav-link {
     display: inline-block;
-    font-size: 35px;
-    font-family: Georgia, Arial, sans-serif;
+    font-size: 3rem;
     margin: 20px;
     padding: 10px;
     transition: transform 1s;
@@ -46,126 +53,85 @@ nav {
 
 a:link, a:visited {
     text-decoration: none;
-    color: #ffffff;
+    color: white;
 }
 
 .name {
     position: absolute;
     top: 33%;
     left: 15%;
-    color: white;
-    font-size: 60px;
-    font-family: Georgia, Arial, sans-serif;
+    font-size: 5rem;
 }
 
-.portfolio-section {
+/*PORTFOLIO*/
+.portfolio-container {
     background-color: #081627;
-
+    display: flex;
+    justify-content: center;
 }
 
-.heading-container {
-    margin: 30px;
-}
-
-.main-heading {
-    font-size: 40px;
-    width: 200px;
-    text-align: center;
-    font-family: Georgia, Arial, sans-serif;
-    color: #ffffff;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: auto;
-    position: relative;
-}
-
-.portfolio-row {
-    width: 100%;
-    overflow: auto;
+.portfolio {
+    width: 90%;
+    margin: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .portfolio-item {
-    float: left;
     width: 30%;
-    padding: 0 10px;
-    margin: 1.5%;
 }
 
 .portfolio-image {
     width: 100%;
+    height: 60%;
 }
 
-.portfolio-heading {
-    font-size: 30px;
-    font-family: Georgia, arial, sans-serif;
-    background-color: #ffffff;
-}
-
-.portfolio-text {
-    font-size: 15px;
-    font-family: arial, sans-serif;
-    padding: 5px;
-    overflow: auto;
-    background-color: #ffffff;
-}
-
-.about-section {
-    background-color: #8A8471;
-    position: relative;
-}
-
+/*ABOUT*/
 .about-container {
-    width: 80%;
-    margin: auto;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #4c5d74;
 }
 
-.profile-pic-container {
-    height: 215px;
-    width: 200px;
-    margin: 0 auto 20px;
+.about {
+    width: 90%;
+    margin: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.image-container {
+    width: 300px;
+    padding: 5px;
 }
 
 .profile-image {
-    border: 1px solid #ddd;
-    height: 210px;
-    float: left;
-    margin: 0 15px;
+    width: 100%;
+}
+
+.background {
+    width: 33%;
+    margin-left: 25px;
+}
+
+.technologies {
+    width: 33%;
+    margin-left: 25px;
+}
+
+.heading {
+    margin: 0 0 10px 0;
     padding: 5px;
-}
-
-.background-container {
-    float: left;
-    clear: both;
-    height: 200px;
-    width: 46%;
-    margin: 2%;
-    position: relative;
-}
-
-.logo-container {
-    height: 200px;
-    float: right;
-    width: 46%;
-    margin: 2%;
-}
-
-.bio-heading {
     background: transparent;
-    font-size: 30px;
-    font-family: Georgia, arial, sans-serif;
-    color: #ffffff;
+    font-size: 1.7rem;
+    line-height: 1.3em;
 }
 
-.bio-text {
-    background: transparent;
-    font-size: 15px;
-    font-family: arial, sans-serif;
-    color: #ffffff;
-    overflow: auto;
+.text {
+    font-size: 0.9rem;
+    padding: 5px;
 }
 
 .logo {
@@ -173,46 +139,57 @@ a:link, a:visited {
     margin: 2%;
 }
 
-.contact-section {
+/*FOOTER*/
+.contact-container {
     background-color: #081627;
-    position: relative;
-    clear: both;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
 }
 
-.footer-item {
-    float: left;
-    width: 32%;
-    height: 370px;
-    color: #ffffff;
-    font-size: 12px;
-    font-family: arial, sans-serif;
-    position: relative;
+.contact {
+    width: 90%;
+    margin: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .flower-image {
     width: 100%;
 }
 
-.footer-bottom {
-    position: absolute;
-    bottom: 10%;
-    left: 55%;
+.copyright {
+    display: flex;
+    align-self: flex-end;
+    margin-left: 20px;
 }
 
-.block {
-    display: block;
+.get-intouch {
+    margin-left: 20px;
 }
 
+/*RESPONSIVE*/
 @media only screen and (max-width: 600px) {
     .nav-link {
-        font-size: 25px;
+        font-size: 1.2rem;
         margin: 15px;
         padding: 10px;
     }
 
     .name {
-        top: 35%;
+        top: 40%;
         left: 7%;
+        font-size: 2rem;
+    }
+
+    .nav-item-container {
+        float: none;
+    }
+
+    .portfolio-image {
+        width: 100%;
+        height: 50%;
     }
 
     .portfolio-item {
@@ -222,67 +199,67 @@ a:link, a:visited {
         margin: 1.5%;
     }
 
-    .portfolio-heading {
-        font-size: 25px;
+    .heading {
+        font-size: 1.3rem;
         padding: 5px;
     }
 
-    .portfolio-text {
-        font-size: 11px;
-        margin-bottom: 10px;
+    .text {
+        font-size: 0.8rem;
     }
 
-    .background-container {
-        height: 200px;
+    .about {
         width: 100%;
-        margin: 1%;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    .logo-container {
-        height: 250px;
+    .profile-image {
+        padding: 10px;
+    }
+
+    .background {
         width: 100%;
-        margin: 1%;
-        padding: 1%
+        margin: 0 10px 0 10px;
     }
 
-    .bio-heading {
-        font-size: 25px;
-    }
-
-    .bio-text {
-        font-size: 11px;
-        padding: 1%;
+    .technologies {
+        width: 100%;
+        margin: 0 10px 0 10px;
     }
 
     .logo {
-        width: 22%;
+        width: 17%;
         margin: 2%;
     }
 
-    .contact-section .container {
+    .contact-container {
+        font-size: 0.8rem;
+    }
+
+    .contact {
+        width: 100%;
+        margin: 0;
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .footer-item {
-        float: none;
+    .image-container {
         width: 100%;
-        height: 50px;
-        font-size: 12px;
-        flex-grow: 2;
-        overflow: auto;
+        padding: 0;
     }
 
-    .footer-item:first-of-type{
-        flex-grow: 3;
+    .flower-image {
+        display: block;
     }
 
-    .footer-bottom {
-        bottom: 15%;
-        left: 60%;
+    .copyright {
+        margin: 0 10px 0 20px;
+        font-size: 0.6rem;
     }
 
-    #flowers {
-        height: 150px;
+    .get-intouch {
+        margin: 0 10px 0 20px;
     }
 }
